@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="droid.divisaspage">
+    <StackLayout>
+        <Label Text="Divisas"
+               Font="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"></Label>
+        <Label Text="Ingrese valor en pesos:"
+               Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+            ></Label>
+        <Label Text="Pesos:"
+               Font="Medium"
+               VerticalOptions="Center"
+            ></Label>
+        <Entry x:Name="pesosEntry"
+               Keyboard="Numeric"
+            ></Entry>
+    </StackLayout>
+</ContentPage>
